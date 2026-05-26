@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
-import { Search, Clock, ListChecks, Globe } from 'lucide-react'
+import { Search, Clock, Checklist, Globe } from 'lucide-react'
 
 // Placeholder pages
 const SearchPage = () => (
@@ -128,7 +128,7 @@ export default function App() {
                   <Clock className="w-4 h-4" /> Timeline
                 </Link>
                 <Link to="/checklist" className="flex items-center gap-2 text-gray-700 hover:text-blue-600 font-medium">
-                  <ListChecks className="w-4 h-4" /> Checklist
+                  <Checklist className="w-4 h-4" /> Checklist
                 </Link>
                 <Link to="/languages" className="flex items-center gap-2 text-gray-700 hover:text-blue-600 font-medium">
                   <Globe className="w-4 h-4" /> Languages
